@@ -1,0 +1,36 @@
+.taxonomy-tlsa_log_type #col-left {
+	display:none;
+}
+.taxonomy-tlsa_log_type #col-right {
+	float:none;
+	width:inherit;
+}
+.taxonomy-tlsa_log_type .dashicons, .post-type-tlsa_audit .dashicons
+{ font-size: 1.5rem; }
+
+.taxonomy-tlsa_log_type .dashicons-yes { color:green; }
+.taxonomy-tlsa_log_type .dashicons-no, .taxonomy-tlsa_log_type .dashicons-no-alt { color:red; }
+.taxonomy-tlsa_log_type .low, .post-type-tlsa_audit .low { color:gray; }
+.taxonomy-tlsa_log_type .medium, .post-type-tlsa_audit .medium { color:orange; }
+.taxonomy-tlsa_log_type .high, .post-type-tlsa_audit .high { color:red; }
+
+.post-type-tlsa_audit #logdate { width:8%;}
+.post-type-tlsa_audit #taxonomy-tlsa_log_type { width:9%;}
+.post-type-tlsa_audit #severity { width:7%;}
+.post-type-tlsa_audit #type { width:9%;}
+.post-type-tlsa_audit #logtitle { width:19%;}
+.post-type-tlsa_audit #message { width:21%;}
+
+.tlsa-header-image { margin-top:10px;}
+
+#tlsa_summary_widget table {
+	width:100%;
+	border-spacing:0;
+}
+#tlsa_summary_widget table th {
+	text-align:left;
+	font-weight:normal;
+	border-bottom: 1px solid #ccd0d4;
+}
+
+#tlsa_summary_widget table th, #tlsa_summary_widget table td { padding: 5px 3px; }
